@@ -1,3 +1,5 @@
+Here is the full project link: https://miguel4prez.github.io/Music-Steaming-Website/
+
 # Jukebox | World Music
 
 This is the code for a web page that showcases the Jukebox music streaming service. It allows users to subscribe to different plans and access millions of songs on various devices.
