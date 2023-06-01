@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+* h1 {
+  font-family: 'Bakbak One', cursive;
+}
+
+* p {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+header img {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+  
+body {
+    background-color: rgb(13, 135, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: white;
+    margin-top: 100px;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 4px 7px 30px rgb(15, 110, 162);
+}
+
+.form-container h1{
+    color:  rgb(13, 135, 240);
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    color:  rgb(93, 92, 92);
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.enter-text-form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bakbak One', cursive;
+    color:  rgb(142, 142, 142);
+
+}
+
+input {
+    border: 2px solid rgb(13, 135, 240);
+    color:  rgb(93, 92, 92);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.checkbox {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/* Already have an account? element. */
+h5 {
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.login {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login:active{
+    color:rgb(0, 0, 149);
+}
+
+.legal{
+    margin-top: 20px;
+}
+
+.terms-privacy {
+    color:  rgb(13, 135, 240);
+    text-decoration: underline;
+}
+
+.commit-buttons {
+    margin-top: 30px;
+}
+
+.commit-buttons button {
+    width: 130px;
+    height: 30px;
+    border: none;
+    padding: 7px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.cancelbtn {
+    background-color: rgb(232, 67, 67);
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.cancelbtn:hover {
+    background-color: rgb(255, 15, 15);
+    width: 132px;
+    height: 32px;
+    transition: 0.5s;
+}
+
+.cancelbtn:active{
+    background-color: rgb(213, 18, 18);
+}
+
+.signupbtn {
+    background-color:rgb(13, 135, 240);
+    color: white;
+    cursor: pointer;
+}
+
+.signupbtn:hover {
+    background-color:rgb(0, 136, 255);
+    width: 132px;
+    height: 32px;
+    transition: 0.5s;
+}
+
+.signupbtn:active {
+    background-color:rgb(1, 116, 217);
+}
+
+
+/* iPhone 12 Pro */
+@media (max-width: 400px) { 
+    .commit-buttons button {
+        width: 80px;
+        height: 30px;
+        margin-right: 10px;
+        
+    }
+
+    .checkbox {
+        margin-bottom: 7px;
+        cursor: pointer;
+    }
+   
+    header {
+        position: absolute;
+        top: 0;
+        margin-left: 115px;
+        margin-top: 30px;
+    }
+
+    .form-container {
+        height: 350px;
+        width: 200px;
+        padding: 15px 50px 130px 50px;
+    }
+
+    .form-container h1{
+        color:  rgb(13, 135, 240);
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    
+    .form-container p {
+        color:  rgb(93, 92, 92);
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    
+    .enter-text-form{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Bakbak One', cursive;
+        color:  rgb(142, 142, 142);
+    
+    }
+    
+    input {
+        border: 2px solid rgb(13, 135, 240);
+        color:  rgb(93, 92, 92);
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .form-container p:nth-last-child(2){
+        margin-top: 20px;
+    }
+    
+    .terms-privacy {
+        color:  rgb(13, 135, 240);
+        text-decoration: underline;
+    }
+
+    .signupbtn:hover {
+        background-color:rgb(0, 136, 255);
+        width: 82px;
+        height: 32px;
+        transition: 0.5s;
+    }
+    
+    .signupbtn:active {
+        background-color:rgb(1, 116, 217);
+    }
+
+    .cancelbtn:hover {
+        background-color: rgb(255, 15, 15);
+        width: 82px;
+        height: 32px;
+        transition: 0.5s;
+    }
+    
+    .cancelbtn:active{
+        background-color: rgb(213, 18, 18);
+    }
+    
+    h5 {
+
+    }
+
+}

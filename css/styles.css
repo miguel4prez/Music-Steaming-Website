@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* h1 {
+  font-family: 'Bakbak One', cursive;
+}
+
+* p {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+
+
+/* For Webpage Scrolling */
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+/* Header Section */
+.subscibe {
+  width: 130px;
+  height: 30px;
+  border: none;
+  padding: 5px;
+  border-radius: 30px;
+  background-color: #eb0e5f;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.subscibe:hover {
+  width: 132px;
+  height: 32px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.subscibe:active {
+  background-color:#cd6e91;
+  color: white;
+}
+
+.log-in {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: transparent;
+  border: solid 2px  #eb0e5f;
+  color:  #eb0e5f;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.log-in:hover {
+  width: 102px;
+  height: 32px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.log-in:active {
+  background-color: #cd6e91;
+}
+
+header {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px;
+  margin-right: 35px;
+}
+.jukebox-img {
+  height: 20px;
+  width: 130px;
+  padding: 15px;
+  align-self: flex-end; 
+}
+
+
+
+
+/* Section One */
+
+.hero-section {
+  position: relative;
+}
+  
+.hero-image {
+
+  height: 700px;
+  width: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  text-align: left;
+}
+  
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+  
+.hero-text p {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 30px;
+}
+  
+.hero-text button {
+  background-color: #eb0e5f;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  width: 220px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: transparent;
+  border: solid 3px  #eb0e5f;
+  color: #eb0e5f;
+  transition: 0.5s;
+}
+
+.hero-text button:active{
+  background-color: rgb(230, 230, 230);
+}
+  
+.any-song {
+  color: #eb0e5f;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/* Section Two */
+.price-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.price-slogan {
+  color: rgb(13, 135, 240);
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.price-slogan-p {
+  color: rgb(153, 153, 153);
+  font-size: 18px;
+}
+
+.price-card {
+  border: none;
+  width: 200px;
+  height: 350px;
+  display: inline-block;
+  justify-content: center;
+  margin: 40px 50px 0 20px;
+  padding: 20px;
+  border-radius: 15px; 
+  color: white;
+  box-shadow: 2px 4px 8px #4f4e4e;
+}
+
+.price-card:hover {
+  padding: 30px;
+  transition: 1s;
+}
+
+.basic-price {
+  background-color: rgb(13, 135, 240);
+}
+
+.plus-price {
+  background-color: rgb(55, 38, 209);
+}
+
+.premium-price {
+  background-color: purple;
+}
+
+.price-card h1 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.price-card h2 {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.price-card p {
+  margin-top: 9px;
+  font-size: 20px;
+}
+
+.price-card button {
+  margin-top: 40px;
+  color: white;
+  background-color: transparent;
+  border: white 2px solid;
+  font-size: 14px;
+  font-weight: 600;
+  width: 180px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.price-card button:hover {
+  padding: 13px 25px;
+  font-size: 15px;
+  background-color: white;
+}
+
+.basic-price button:hover {
+  color:  rgb(13, 135, 240);
+}
+
+.basic-price button:active {
+  background-color: rgb(245, 245, 245);
+}
+
+.plus-price button:hover {
+  color: rgb(55, 38, 209);
+}
+
+.plus-price button:active {
+  background-color: rgb(245, 245, 245);
+}
+
+.premium-price button:hover {
+  color: purple;
+}
+
+.premium-price button:active {
+  background-color: rgb(245, 245, 245);
+}
+
+
+/* Section Three */
+.hero2-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero2 {
+  height: 700px;
+  width: 100%;
+}
+
+.hero2-all-text {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.hero2-text {
+  color: white;
+  text-align: center;
+  flex: 1;
+  
+}
+
+.hero2-text p {
+  font-size: 20px;
+}
+
+.hero2-icon {
+  margin-bottom: 20px;
+}
+
+.hero2-container-1,
+.hero2-container-2,
+.hero2-container-3 {
+  flex: 1;
+}
+
+.hero2-container h1 {
+  margin-bottom: 15px;
+}
+
+
+
+/* Section Four */
+.album-cover-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.album-cover {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+.album-cover:hover{
+  width: 203px;
+  height: 203px;
+  transition: 0.5s;
+  border: solid 4px rgb(13, 135, 240);
+  cursor: pointer;
+}
+
+
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between; 
+  background-color: rgb(13, 135, 240);
+}
+
+.social-media {
+  align-items: center;
+  margin: 5px 30px 5px 0;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iPhone 12 Pro */
+@media (max-width: 400px){
+
+
+  /* Header Section */
+.subscibe {
+  width: 100px;
+  height: 30px;
+  border: none;
+  padding: 5px;
+  border-radius: 30px;
+  background-color: #eb0e5f;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.subscibe:hover {
+  width: 132px;
+  height: 32px;
+  color: #eb0e5f;
+  background-color: transparent;
+  border: solid 2px #eb0e5f;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.subscibe:active {
+  background-color:#cd6e91;
+  color: white;
+}
+
+.log-in {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: transparent;
+  border: solid 2px  #eb0e5f;
+  color:  #eb0e5f;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.log-in:hover {
+  width: 102px;
+  height: 32px;
+  background-color: #eb0e5f;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.log-in:active {
+  background-color: #cd6e91;
+}
+
+header {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px;
+  margin-right: 35px;
+}
+.jukebox-img {
+  height: 20px;
+  width: 130px;
+  padding: 15px;
+  align-self: flex-end; 
+}
+
+
+
+
+/* Section One */
+
+.hero-section {
+  position: relative;
+}
+  
+.hero-image {
+  height: 500px;
+  width: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  margin-right: 30px;
+  text-align: center;
+}
+  
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+  
+.hero-text p {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 30px;
+}
+  
+.hero-text button {
+  background-color: #eb0e5f;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  width: 220px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: transparent;
+  border: solid 3px  gold;
+  color: gold;
+  transition: 0.5s;
+}
+
+.hero-text button:active{
+  background-color: rgb(145, 161, 166);
+}
+  
+.any-song {
+  color: gold;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+/* Section Two */
+.price-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.price-slogan {
+  color: rgb(13, 135, 240);
+  margin-bottom: 20px;
+  margin-left: 50px;
+  font-size: 30px;
+  width: 200px;
+}
+
+.price-slogan-p {
+  color: rgb(153, 153, 153);
+  font-size: 18px;
+}
+
+.price-card {
+  border: none;
+  width: 200px;
+  height: 350px;
+  display: inline-block;
+  justify-content: center;
+  margin: 40px 0 0 0;
+  padding: 20px;
+  border-radius: 15px; 
+  color: white;
+  box-shadow: 2px 4px 8px #4f4e4e;
+}
+
+.price-card:hover {
+  padding: 30px;
+  transition: 1s;
+}
+
+.basic-price {
+  background-color: rgb(13, 135, 240);
+}
+
+.plus-price {
+  background-color: rgb(55, 38, 209);
+}
+
+.premium-price {
+  background-color: purple;
+}
+
+.price-card h1 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.price-card h2 {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.price-card p {
+  margin-top: 9px;
+  font-size: 20px;
+}
+
+.price-card button {
+  margin-top: 40px;
+  color: white;
+  background-color: transparent;
+  border: white 2px solid;
+  font-size: 14px;
+  font-weight: 600;
+  width: 180px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.price-card button:hover {
+  padding: 13px 25px;
+  font-size: 15px;
+  background-color: white;
+}
+
+.basic-price button:hover {
+  color:  rgb(13, 135, 240);
+}
+
+.basic-price button:active {
+  background-color: rgb(245, 245, 245);
+}
+
+.plus-price button:hover {
+  color: rgb(55, 38, 209);
+}
+
+.plus-price button:active {
+  background-color: rgb(245, 245, 245);
+}
+
+.premium-price button:hover {
+  color: purple;
+}
+
+.premium-price button:active {
+  background-color: rgb(245, 245, 245);
+}
+
+
+/* Section Three */
+.hero2-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero2 {
+  height: 500px;
+  width: 100%;
+}
+
+.hero2-all-text {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  padding: 0 10px 10px 10px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+ 
+}
+
+.hero2-text {
+  color: white;
+
+}
+
+.hero2-text p {
+  font-size: 20px;
+}
+
+.hero2-icon {
+  margin-bottom: 20px;
+}
+
+.hero2-container-1,
+.hero2-container-2,
+.hero2-container-3 {
+  flex: 1;
+}
+
+.hero2-container h1 {
+  margin-bottom: 15px;
+}
+
+.hero2-container-3 h1{
+  width: 80px;
+}
+
+
+
+/* Section Four */
+.album-cover-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.album-cover {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.album-cover:hover{
+  width: 210px;
+  height: 210px;
+  transition: 1s;
+  border: solid 4px rgb(13, 135, 240);
+  cursor: pointer;
+}
+
+
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between; 
+  background-color: rgb(13, 135, 240);
+}
+
+.social-media {
+  align-items: center;
+  margin: 5px 5px 5px 0;
+  
+}
+}
+
